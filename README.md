@@ -1,1 +1,1 @@
-"# curso-django-projeto2" 
+venv
