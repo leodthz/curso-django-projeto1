@@ -11,6 +11,9 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from pathlib import Path
+from turtle import back
+
+from django.template import TemplateSyntaxError
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -57,6 +60,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             BASE_DIR/'base_templates',
+            BASE_DIR/'recipes'/'template_temp',
         ],
         'APP_DIRS': True,
         'OPTIONS': {
