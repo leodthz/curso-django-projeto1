@@ -228,6 +228,19 @@ h6 {
     font-size: 1.6rem;
 }
 
+
+.main-content-detail .recipe-list-item {
+    max-width: 84rem;
+
+}
+
+.main-content-detail .recipe-list-item:hover{
+
+    transform: ;
+
+}
+
+
 .recipe-footer a {
     background: var(--color-primary-dark);
     display: block;
